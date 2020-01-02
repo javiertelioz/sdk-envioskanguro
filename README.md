@@ -2,6 +2,9 @@
 API Envios Kanguro
 
 # Install
+```shell
+composer require javiertelioz/sdk-envioskanguro
+```
 
 #Example 
 
