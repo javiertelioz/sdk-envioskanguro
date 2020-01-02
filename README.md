@@ -84,7 +84,7 @@ $body = [
     ]
 ];
 
-$response = $api->post(->post('rate', $body);
+$response = $api->post('rate', $body);
 
 ```
 
