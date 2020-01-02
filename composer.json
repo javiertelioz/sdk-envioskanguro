@@ -1,0 +1,21 @@
+{
+    "name": "javiertelioz/sdk-envioskanguro",
+    "description": "API Envios Kanguro",
+    "type": "library",
+    "require": {
+        "php": "^7.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Javier Telio Z",
+            "email": "jtelio118@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-0": {
+            "EnviosKanguro": "src/"
+        }
+    }
+}
