@@ -36,7 +36,7 @@ class Config {
      * Environments url
      */
     const ENVIRONMENTS = [
-        "production"    => "https://api.envioskanguro.com/api/v1",
-        "development"   => "https://apidev.envioskanguro.com/api/v1"
+        "production"    => "https://api.envioskanguro.com/v1",
+        "development"   => "https://apidev.envioskanguro.com/v1"
     ];
 }
