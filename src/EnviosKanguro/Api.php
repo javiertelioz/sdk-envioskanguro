@@ -29,15 +29,16 @@ class Api
     protected $token;
 
     /**
-     * Set variables to connect in Envios Kanguro
+     * Set variables to connect in Envios Kanguro ('production', 'development')
+     * default 'development'
      * 
      * @param string $token
      * @param string $mode
      */
-    public function __construct($token, $mode = null)
+    public function __construct($token, $mode = 'development')
     {
         $this->token = $token;
-        $this->mode = is_null($mode) ? 'production' : 'development';
+        $this->mode = $mode;
     }
 
     /**
